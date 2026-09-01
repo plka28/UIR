@@ -1,0 +1,5 @@
+# Local database settings may contain credentials.
+/code/.env
+/code/.env.local
+/code/.env.*.local
+пз/

@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.02481,
+          56.4927
+        ]
+      },
+      "properties": {
+        "capacity": 1233000,
+        "id": "1",
+        "latitude": 56.4927,
+        "longitude": 38.02481,
+        "name": "Север",
+        "object_type": "plant",
+        "style_color": "#9467bd",
+        "style_key": "plant:1",
+        "style_label": "Север"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6669,
+          55.45791
+        ]
+      },
+      "properties": {
+        "capacity": 1233000,
+        "id": "2",
+        "latitude": 55.45791,
+        "longitude": 35.6669,
+        "name": "Храброво",
+        "object_type": "plant",
+        "style_color": "#8c564b",
+        "style_key": "plant:2",
+        "style_label": "Храброво"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.67488,
+          55.20005
+        ]
+      },
+      "properties": {
+        "capacity": 822000,
+        "id": "3",
+        "latitude": 55.20005,
+        "longitude": 38.67488,
+        "name": "Юг",
+        "object_type": "plant",
+        "style_color": "#e377c2",
+        "style_key": "plant:3",
+        "style_label": "Юг"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38078,
+          54.64886
+        ]
+      },
+      "properties": {
+        "capacity": 822000,
+        "id": "4",
+        "latitude": 54.64886,
+        "longitude": 38.38078,
+        "name": "Дон",
+        "object_type": "plant",
+        "style_color": "#17becf",
+        "style_key": "plant:4",
+        "style_label": "Дон"
+      }
+    }
+  ]
+}

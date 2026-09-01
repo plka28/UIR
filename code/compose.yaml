@@ -1,0 +1,26 @@
+name: waste-routing
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.5
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-waste_routing}
+      POSTGRES_USER: ${POSTGRES_USER:-waste_routing}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in code/.env}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations/000001_initial_schema.sql:/docker-entrypoint-initdb.d/20_000001_initial_schema.sql:ro
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready --host 127.0.0.1 --username "$${POSTGRES_USER}" --dbname "$${POSTGRES_DB}"
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

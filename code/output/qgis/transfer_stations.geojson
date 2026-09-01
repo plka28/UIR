@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.52663,
+          56.39521
+        ]
+      },
+      "properties": {
+        "capacity": 350000,
+        "id": "1",
+        "latitude": 56.39521,
+        "longitude": 37.52663,
+        "name": "МПС Дмитров",
+        "object_type": "transfer_station",
+        "style_color": "#1f77b4",
+        "style_key": "transfer_station:1",
+        "style_label": "МПС Дмитров"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.22169,
+          56.74508
+        ]
+      },
+      "properties": {
+        "capacity": 600000,
+        "id": "2",
+        "latitude": 56.74508,
+        "longitude": 37.22169,
+        "name": "МПС Дубна (РФК Экосистема)",
+        "object_type": "transfer_station",
+        "style_color": "#ff7f0e",
+        "style_key": "transfer_station:2",
+        "style_label": "МПС Дубна (РФК Экосистема)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76004,
+          55.96406
+        ]
+      },
+      "properties": {
+        "capacity": 1000000,
+        "id": "3",
+        "latitude": 55.96406,
+        "longitude": 37.76004,
+        "name": "МУП Полигон (Коргашино)",
+        "object_type": "transfer_station",
+        "style_color": "#2ca02c",
+        "style_key": "transfer_station:3",
+        "style_label": "МУП Полигон (Коргашино)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.42146,
+          55.91221
+        ]
+      },
+      "properties": {
+        "capacity": 400000,
+        "id": "4",
+        "latitude": 55.91221,
+        "longitude": 37.42146,
+        "name": "МПС Химки",
+        "object_type": "transfer_station",
+        "style_color": "#d62728",
+        "style_key": "transfer_station:4",
+        "style_label": "МПС Химки"
+      }
+    }
+  ]
+}

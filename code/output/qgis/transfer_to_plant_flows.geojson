@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.52663,
+            56.39521
+          ],
+          [
+            38.02481,
+            56.4927
+          ]
+        ]
+      },
+      "properties": {
+        "cost": 910246.188660001,
+        "distance": 59.975,
+        "flow_volume": 15177.0936,
+        "plant_id": "1",
+        "style_color": "#9467bd",
+        "style_key": "plant:1",
+        "style_label": "Север",
+        "transfer_id": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.76004,
+            55.96406
+          ],
+          [
+            38.02481,
+            56.4927
+          ]
+        ]
+      },
+      "properties": {
+        "cost": 6950.57081943157,
+        "distance": 87.827,
+        "flow_volume": 79.1393400597944,
+        "plant_id": "1",
+        "style_color": "#9467bd",
+        "style_key": "plant:1",
+        "style_label": "Север",
+        "transfer_id": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.76004,
+            55.96406
+          ],
+          [
+            35.6669,
+            55.45791
+          ]
+        ]
+      },
+      "properties": {
+        "cost": 38944.9717880963,
+        "distance": 164.468,
+        "flow_volume": 236.793612058858,
+        "plant_id": "2",
+        "style_color": "#8c564b",
+        "style_key": "plant:2",
+        "style_label": "Храброво",
+        "transfer_id": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.42146,
+            55.91221
+          ],
+          [
+            35.6669,
+            55.45791
+          ]
+        ]
+      },
+      "properties": {
+        "cost": 25382105.8707752,
+        "distance": 140.775,
+        "flow_volume": 180302.652251999,
+        "plant_id": "2",
+        "style_color": "#8c564b",
+        "style_key": "plant:2",
+        "style_label": "Храброво",
+        "transfer_id": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.76004,
+            55.96406
+          ],
+          [
+            38.67488,
+            55.20005
+          ]
+        ]
+      },
+      "properties": {
+        "cost": 15372.3165962812,
+        "distance": 178.056,
+        "flow_volume": 86.3341678813473,
+        "plant_id": "3",
+        "style_color": "#e377c2",
+        "style_key": "plant:3",
+        "style_label": "Юг",
+        "transfer_id": "3"
+      }
+    }
+  ]
+}

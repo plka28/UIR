@@ -1,0 +1,9 @@
+{
+  "input_waste_sources": 24594,
+  "output_waste_sources": 24594,
+  "input_transfer_stations": 4,
+  "output_transfer_stations": 4,
+  "input_plants": 4,
+  "output_plants": 4,
+  "issues": []
+}
